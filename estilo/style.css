@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: título;
+    src: url(../fontes/PassionOne-Bold.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: corpo;
+    src: url(../fontes/Sriracha-Regular.ttf);
+    font-weight: normal;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body, html{
+    min-height: 100vh;
+    background-color: bisque;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1{
+    font-family: título;
+    font-weight: normal;
+    font-variant: small-caps;
+    padding-top: 50px;
+}
+header p{
+    padding-bottom: 50px;
+}
