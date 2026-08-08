@@ -82,14 +82,15 @@ section.especial p{
 
  #img1{
     background-image: url(../imagens/background001.jpg);
-    /*background-position: right center;*/
+    background-position: right center;
     
  }
 
  #img2{
     background-image: url(../imagens/background002.jpg);
-    /*background-position: right center;*/
+    background-position: right center;
  }
+ 
  footer{
     background-color: rgb(0, 0, 0);
     color: white;
